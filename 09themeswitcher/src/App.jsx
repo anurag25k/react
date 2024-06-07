@@ -1,15 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-    <h1 bg-green-700 text-center>tailwind css</h1>
-      
-    </>
-  )
-}
+    <div className="flex flex-wrap min-h-screen items-center">
+      <div className="w-full">
+        <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
+          {/*theme btn */}
+        </div>
 
-export default App
+        <div className="w-full max-w-sm mx-auto">
+          {/*card */}
+        </div>
+      </div>
+    </div>
+  );
+}
